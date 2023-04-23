@@ -23,3 +23,10 @@ var="test1"
 puts var
 
 puts 1 + '2'.to_i
+
+puts "A" + 'B' + 'c'
+
+puts 'a'.class
+
+guess = 'a'
+if guess.count("a-zA-Z") = 1:
