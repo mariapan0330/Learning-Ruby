@@ -15,4 +15,11 @@ puts "Put this down"
 print "Print this"
 print " and this"
 puts "This is not a new line"
-puts 'but this is'
+puts 'but this is'.length()
+
+puts "Maria".reverse().upcase()
+
+var="test1"
+puts var
+
+puts 1 + '2'.to_i
