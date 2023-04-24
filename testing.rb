@@ -18,6 +18,7 @@ puts "This is not a new line"
 puts 'but this is'.length()
 
 puts "Maria".reverse().upcase()
+puts "Maria".reverse().downcase()
 
 var="test1"
 puts var
@@ -28,5 +29,24 @@ puts "A" + 'B' + 'c'
 
 puts 'a'.class
 
-guess = 'a'
-if guess.count("a-zA-Z") = 1:
+# guess = 'a'
+# if guess.count("a-zA-Z") = 1:
+
+test_word = 'abcdefg'
+test_letter = 'f'
+# test_word = test_word.split()
+puts test_word
+
+test_word.each_char.each_with_index do |c, i|
+    if test_word[i] == test_letter
+        puts i
+    end
+end
+
+scope = 0
+def scope_updator(scope)
+    scope += 1
+end
+
+scope_updator(scope)
+puts scope # still prints 0, not 1
